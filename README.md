@@ -1,2 +1,3 @@
-# josh-s_portfolio
-This portfolio highlights data analyst projects 
+# Joshua's Portfolio  
+
+# Project 1 : Automated Request Assignment: Balancing Workload for Open Records Requests
