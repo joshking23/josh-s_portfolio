@@ -19,15 +19,7 @@ Every request gets an owner within seconds, and the workload stays balanced.
 6. **Update state:** The next index goes back into the OneDrive file. When it reaches the end of the list, it starts over from the first person.
 
 ## Flow Diagram
-```mermaid
-flowchart LR
-    A[New ORR Email] --> B{Activity Reminder?}
-    B -- Yes --> X[Terminate]
-    B -- No --> C[Read Index from OneDrive]
-    C --> D[Select Assignee from emailList]
-    D --> E[Forward Email + CC Stakeholders]
-    E --> F[Write nextIndex to OneDrive]
-```
+[ORR Auto-Assignment Flow](orr-flow-diagram.png) 
 
 ## Impact
 - Requests are assigned automatically instead of by hand
