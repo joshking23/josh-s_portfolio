@@ -19,7 +19,7 @@ Every request gets an owner within seconds, and the workload stays balanced.
 6. **Update state:** The next index goes back into the OneDrive file. When it reaches the end of the list, it starts over from the first person.
 
 ## Flow Diagram
-[ORR Auto-Assignment Flow](orr-flow-diagram.png) 
+![ORR Auto-Assignment Flow](orr-flow-diagram.png) 
 
 ## Impact
 - Requests are assigned automatically instead of by hand
